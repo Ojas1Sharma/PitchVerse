@@ -8,4 +8,7 @@ class Changes(admin.ModelAdmin):
 	list_filter = ('team',)
 		
 
+for i in range(100):
+	print(i)
+
 admin.site.register(User, Changes)
